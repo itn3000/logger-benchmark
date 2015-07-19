@@ -42,6 +42,8 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="NLog.xsd" />
-    <None Include="NLog.config" />
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
